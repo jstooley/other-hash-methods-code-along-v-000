@@ -10,5 +10,5 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
-  groceries.min{|type, item| item}
+  groceries.min{|type, item| type}
 end
