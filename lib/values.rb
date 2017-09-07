@@ -10,7 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  groceries.collect do |type, food|
-    type.values
+  groceries.values
   end
 end
