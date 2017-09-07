@@ -11,7 +11,9 @@ require 'pry'
 def get_the_values(groceries)
   #code your solution here!
     groceries.values.collect do |food|
-      food
+      food.collect do |together|
+        together
+      end
     end
 
 end
